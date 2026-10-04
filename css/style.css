@@ -695,15 +695,20 @@ img {
         width: min(290px, 100%);
     }
 
+    .galeria {
+    grid-template-columns: repeat(2, 150px);
+    gap: 25px 20px;
+    justify-content: center;
+    }
 
     .galeria-item {
-        width: 150px;
+    width: 150px;
     }
 
-
-    .galeria-item img {
-        height: 150px;
-    }
+.galeria-item img {
+    width: 150px;
+    height: 150px;
+}
 
 
     .sobre-fotos {
